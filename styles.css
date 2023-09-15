@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px) {
+    
+}
+
+body {
+    background-color: blanchedalmond; /* Sidans bakgrundsfärg */
+}
+
+#headerStyle {
+    font-style: italic;
+}
+
+.sidesLink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.introText {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
