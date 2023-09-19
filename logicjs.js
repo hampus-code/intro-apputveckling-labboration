@@ -31,7 +31,7 @@ function userRating() {
     alert(result)
 }
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+/*Denna function ser till att man kan få upp allt i menyn när man trycker på de 3 strecken på en mindre skärm */
 function navBar() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
