@@ -18,9 +18,31 @@ body {
     
 }
 
-.introText {
+.centralText {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+}
+
+
+.sidorH2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/*Sida 1 design*/
+
+.sida1pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Designen för användarens egen star rating*/
+.userRate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
