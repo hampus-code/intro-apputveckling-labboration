@@ -26,7 +26,17 @@ function sida5Button() {
 /* Function för användarens egen star rating */
 function userRating() {
 
-    var result = prompt("Vänligen sätt ditt betyg från 1-10")
+    var result = prompt("Vänligen sätt ditt eget betyg på denna serie, från 1-10")
 
     alert(result)
 }
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function navBar() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  } 

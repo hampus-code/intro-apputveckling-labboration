@@ -4,39 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Hemsida </title>
-    <link rel="stylesheet" href="styles.css"> <!-- Länkar till css filen -->
+    <link rel="stylesheet" href="styles.css"> <!-- Länk till css filen -->
 </head>
 <body>
 
     <h1 id="headerStyle"> Serie-Ratings </h1> <!-- Sidans Titel -->
 
-    
-    <!--<div class="sidesLink">
-    <a href="sida1.html"> Sida 1 </a>
-    <a href="sida2.html"> Sida 2 </a>
-    <a href="sida3.html"> Sida 3 </a>
-    <a href="sida4.html"> Sida 4 </a>
-    </div>-->
+     <!-- Gör så att man ser en lite meny bar på sidan när skärmen är mindre -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <div class="sidesLink"> <!-- Länk till varje html fil men i form av knappar -->
-        <button onclick="hemsidaButton()"> Hemsida </button>
-        <button onclick="sida1Button()"> Sida 1 </button>
-        <button onclick="sida2Button()"> Sida 2 </button>
-        <button onclick="sida3Button()"> Sida 3 </button>
-        <button onclick="sida4Button()"> Sida 4 </button>
-        <button onclick="sida5Button()"> Sida 5 </button>
-    </div>
+<div class="topnav" id="myTopnav"> <!-- Navigeringsmeny -->
+  <a href="index.html" class="active">Hem</a>
+  <a href="sida1.html"> Breaking Bad</a>
+  <a href="sida2.html"> Sherlock Holmes</a>
+  <a href="sida3.html"> Game of Thrones</a>
+  <a href="sida4.html"> Black Mirror</a>
+  <a href="sida5.html"> Cobra Kai</a>
+  <a href="javascript:void(0);" class="icon" onclick="navBar()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div> 
 
     <h2 class="sidorH2"> Intro </h2> <!-- Sidotiteln -->
 
-    <p class="centralText"> Detta är min sida där jag rankar några av mina bästa serier. Jag har ej tagit hänsyn till olika genrer <!-- Text om serien -->
-        eller något liknande och det är nödvändigtvis inte heller i rangordning. Detta är bara mina 5 bästa serier jag kan komma och tänka på just nu.
+    <p class="centralText"> Detta är min sida där jag rankar några serie som jag tycker är bland <!-- Text om serien -->
+        de bästa som har gjorts.
+        Jag har ej tagit hänsyn till olika genrer eller något liknande och det är nödvändigtvis
+        inte heller i rangordning. Detta är bara de 5 bästa serier jag kan komma och tänka på just nu.
     </p>
 
 
-    
+    <img src="tv-shows-montage.jpg" alt=" Tv serie montage" class="sidoBild">
 
     
-    <script src="logicjs.js"></script> <!-- Länkar till javascript filen -->
+    <script src="logicjs.js"></script> <!-- Länk till javascript filen -->
 </body>
 </html>

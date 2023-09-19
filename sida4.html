@@ -7,17 +7,22 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <h1 id="headerStyle"> Serie-Ratings </h1> <!-- Sidans Titel -->
 
-    <div class="sidesLink">
-        <button onclick="hemsidaButton()"> Hemsida </button>
-        <button onclick="sida1Button()"> Sida 1 </button>
-        <button onclick="sida2Button()"> Sida 2 </button>
-        <button onclick="sida3Button()"> Sida 3 </button>
-        <button onclick="sida4Button()"> Sida 4 </button>
-        <button onclick="sida5Button()"> Sida 5 </button>
-    </div>
+    <h1 id="headerStyle"> Serie-Ratings </h1>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Hem</a>
+        <a href="sida1.html"> Breaking Bad</a>
+        <a href="sida2.html"> Sherlock Holmes</a>
+        <a href="sida3.html"> Game of Thrones</a>
+        <a href="sida4.html"> Black Mirror</a>
+        <a href="sida5.html"> Cobra Kai</a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div> 
 
     <h2 class="sidorH2"> Black Mirror </h2>
 
@@ -31,6 +36,8 @@
         uppfinningar tycker jag är väldigt intressant och det som gör att serien sticker ut på ett sätt som verkligen
         höjer den. 
     </p>
+
+    <img src="black-mirror-img.jpg" alt="Black Mirror Image" class="sidoBild">
 
     <div class="userRate">
         <button onclick="userRating()"> Betygsätt här</button>
