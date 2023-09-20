@@ -13,6 +13,10 @@ body {
     text-decoration: underline;
 }
 
+.sidorH2 { /* Placering och design på h2 på varje sida */
+    text-align: center;
+    text-decoration: underline;
+}
 
 
 .centralText { /* Designen på texten till varje serie */
@@ -23,12 +27,6 @@ body {
     display: block;
     margin-bottom: 25px;
     
-}
-
-
-.sidorH2 { /* Placering och design på h2 på varje sida */
-    text-align: center;
-    text-decoration: underline;
 }
 
 
