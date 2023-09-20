@@ -39,11 +39,17 @@
     </p>
 
 
+
     <img src="breaking-bad-walter-white.jpg" alt="" class="sidoBild">
 
 
-    <div class="userRate"> 
-        <button onclick="userRating()"> Betygsätt här</button> <!-- Knapp där användaren får ange sitt betyg på serien, man får upp en dialogruta att skriva i -->
+    <audio id="myAudio" src="Breaking Bad Intro.mp3"></audio> <!-- Länk till ljud -->
+
+
+    <div class="userRatesoundButton"> <!-- Buttons för att spela/pausa ljud och göra en rating -->
+        <button onclick="playAudio()" type="button" class="buttonDesign">Play Intro Audio</button>
+        <button onclick="pauseAudio()" type="button" class="buttonDesign">Pause Audio</button>
+        <button onclick="userRating()" class="buttonDesign"> Rate Series</button> <!-- Knapp där användaren får ange sitt betyg på serien, man får upp en dialogruta att skriva i -->
     </div>
 
     <script src="logicjs.js"></script>

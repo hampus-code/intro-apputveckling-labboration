@@ -38,8 +38,13 @@
 
     <img src="black-mirror-img.jpg" alt="Black Mirror Image" class="sidoBild">
 
-    <div class="userRate">
-        <button onclick="userRating()"> Betygsätt här</button>
+    <audio id="myAudio" src="Black-Mirror-Theme-Song.mp3"></audio>
+
+
+    <div class="userRatesoundButton"> 
+        <button onclick="playAudio()" type="button" class="buttonDesign">Play Intro Audio</button>
+        <button onclick="pauseAudio()" type="button" class="buttonDesign">Pause Audio</button>
+        <button onclick="userRating()" class="buttonDesign"> Rate Series</button> <!-- Knapp där användaren får ange sitt betyg på serien, man får upp en dialogruta att skriva i -->
     </div>
 
     <script src="logicjs.js"></script>

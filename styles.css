@@ -9,6 +9,8 @@ body {
 
 #headerStyle { /* Design på hemsidans h1 */
     font-style: italic;
+    text-align: center;
+    text-decoration: underline;
 }
 
 
@@ -19,6 +21,8 @@ body {
     flex-direction: column;
     text-align: center;
     display: block;
+    margin-bottom: 25px;
+    
 }
 
 
@@ -28,12 +32,14 @@ body {
 }
 
 
-.userRate { /* Knapp som gör att användaren ska kunna betygsätta serien själv*/
+.userRatesoundButton { /* Knapp som gör att användaren ska kunna betygsätta serien själv och spela musik*/
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
 
 }
+
 /*Bilder design*/
 
 .sidoBild {
@@ -42,6 +48,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 100%; /* Så att bilderna anpassar sig efter skärmen, stor eller liten*/
+    margin-bottom: 20px;
 }
 
 /* Positioneringen på länkarna till varje sida */
@@ -70,7 +77,7 @@ body {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
-button:hover {
+button:hover { /* Så att det blir en hover på buttons */
     background-color: blanchedalmond;
     transition: 0.4s;
 }
@@ -78,3 +85,5 @@ button:hover {
 .line { /* Designen på linjen vid menyknapparna */
     border: 1px solid black;
 }
+
+

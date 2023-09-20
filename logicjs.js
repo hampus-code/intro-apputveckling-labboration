@@ -33,3 +33,13 @@ function userRating() {
 
     alert(result)
 }
+
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
