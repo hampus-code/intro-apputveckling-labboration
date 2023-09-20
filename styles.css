@@ -1,5 +1,8 @@
-@media screen and (max-width: 1024px) {
-    
+@media screen and (max-width: 767px) {
+    #indexBild { /* Denna bilden blev inte bra vid mindre skärm så anpassade den */
+        width: auto;
+        height: auto;
+    }
 }
 
 body {
