@@ -10,31 +10,31 @@
 
     <h1 id="headerStyle"> Serie-Ratings </h1> <!-- Sidans Titel -->
 
-     <!-- Gör så att man ser en lite "menybar"(3 små streck) på sidan när skärmen är mindre -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <hr class="line"> <!-- Drar en linje längs hela sidan, för att det ska se ut mer som en meny -->
 
-<div class="topnav" id="myTopnav"> <!-- Navigeringsmeny -->
-  <a href="index.html" class="active">Hem</a> <!-- Länk till varje html sida -->
-  <a href="sida1.html"> Breaking Bad</a>
-  <a href="sida2.html"> Sherlock Holmes</a>
-  <a href="sida3.html"> Game of Thrones</a>
-  <a href="sida4.html"> Black Mirror</a>
-  <a href="sida5.html"> Cobra Kai</a>
-  <a href="javascript:void(0);" class="icon" onclick="navBar()">
-    <i class="fa fa-bars"></i> <!-- Detta element ser till att de 3 strecken syns -->
-  </a>
-</div> 
+    <div class="sidesLink"> <!-- Länk till varje html fil men i form av knappar -->
+        <button onclick="hemsidaButton()"> Hemsida </button>
+        <button onclick="sida1Button()"> Breaking Bad </button>
+        <button onclick="sida2Button()"> Sherlock Holmes </button>
+        <button onclick="sida3Button()"> Game of Thrones </button>
+        <button onclick="sida4Button()"> Black Mirror </button>
+        <button onclick="sida5Button()"> Cobra Kai </button>
+    </div>
+
+    <hr class="line">
 
     <h2 class="sidorH2"> Intro </h2> <!-- Sidotiteln -->
 
-    <p class="centralText"> Detta är min sida där jag rankar några serie som jag tycker är bland <!-- Text om serien -->
-        de bästa som har gjorts.
-        Jag har ej tagit hänsyn till olika genrer eller något liknande och det är nödvändigtvis
-        inte heller i rangordning. Detta är bara de 5 bästa serier jag kan komma och tänka på just nu.
+    <p class="centralText"> Detta är min sida där jag rankar några serier från som jag tycker är bland <!-- Text om serien -->
+        de bästa som har gjorts, av en del olika anledningar. Jag har såklart bara tagit med
+        serier som jag har sett då jag inte kan bedöma serier jag inte har sett. 
+        Och jag har ej tänkt på vilka genrer det är eller något liknande och det är nödvändigtvis inte heller i rangordning. 
+        Detta är bara de 5 bästa serier som jag kan komma och tänka på just nu. Jag har tagit med en skala med 1-10
+        för att visa mer exakt hur tycker om de.
     </p>
 
 
-    <img src="tv-shows-montage.jpg" alt=" Tv serie montage" class="sidoBild"> <!-- Länk till bild som finns lokalt på datorn -->
+    <img src="tv-shows-montage.jpg" alt=" Tv serie montage" height="400px" width="800px" class="sidoBild"> <!-- Länk till bild som finns lokalt på datorn -->
 
     
     <script src="logicjs.js"></script> <!-- Länk till javascript filen -->

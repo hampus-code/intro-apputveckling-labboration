@@ -1,3 +1,5 @@
+/* Function för varje button för länkarna */
+
 function hemsidaButton() {
     window.location.href = "index.html"
 }
@@ -23,20 +25,10 @@ function sida5Button() {
 }
 
 
-/* Function för användarens egen star rating */
+/* Function som gör att användaren kan ge egen rating */
 function userRating() {
 
     var result = prompt("Vänligen sätt ditt eget betyg på denna serie, från 1-10")
 
     alert(result)
 }
-
-/*Denna function ser till att man kan få upp allt i menyn när man trycker på de 3 strecken på en mindre skärm */
-function navBar() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  } 
