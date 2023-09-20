@@ -1,3 +1,4 @@
+
 /* Function för varje button för länkarna */
 
 function hemsidaButton() {
@@ -25,7 +26,7 @@ function sida5Button() {
 }
 
 
-/* Function som gör att användaren kan ge egen rating */
+/* Function som gör att användaren kan ge en egen rating */
 function userRating() {
 
     var result = prompt("Vänligen sätt ditt eget betyg på denna serie, från 1-10")
