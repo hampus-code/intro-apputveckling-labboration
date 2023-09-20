@@ -34,6 +34,7 @@ function userRating() {
     alert(result)
 }
 
+/* Function som gör det går att spela och stoppa musik på 2 olika knappar */
 var x = document.getElementById("myAudio"); 
 
 function playAudio() { 
